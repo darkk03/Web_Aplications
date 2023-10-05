@@ -9,6 +9,11 @@
     <title>tarea 4</title>
     <style>
 
+        html
+        {
+            font-family: 'Pixelify Sans', cursive;
+        }
+
         body
         {
             background-color: #0075FF;
@@ -18,7 +23,6 @@
 
         .titel
         {
-            font-family: 'Pixelify Sans', cursive;
             color: #FFF;
             text-align: center;
             text-shadow: -8px 8px 0px #000;
@@ -26,14 +30,15 @@
             font-style: normal;
             font-weight: 900;
             line-height: normal;
-            letter-spacing: 2.88px;
+            letter-spacing: 2.88px; 
+            margin-top: 20px;
         }
 
         .secondtitel
         {
-            font-family: 'Pixelify Sans', cursive;
             color: #FFF;
             text-align: left;
+            padding-left: 30px;
             margin-left: 5px;
             text-shadow: -8px 8px 0px #000;
             font-size: 80px;
@@ -46,22 +51,23 @@
 
         .secondtitleline
         {
+
             border-radius: 20px;
-            border: none;
+            border: none;         
             height: 5px; 
             background-color: white;
         }
 
         .maincontainer
         {
-            margin-top: 50px;
+            margin-top: 50px ;
         }
         
         .list-estudios
         {
+            border: 5px solid #000000;
             border-radius: 20px;
             background-color: white;
-            /* border: 5px solid #000000; */
             padding: 10px;
             margin: 20px;
             box-shadow: 5px 5px 5px #000000;
@@ -71,66 +77,238 @@
         {
             border-radius: 20px;
             background-color: white;
-            /* border: 5px solid #000000; */
+            border: 5px solid #000000;
             padding: 10px;
             margin: 20px;
             box-shadow: 5px 5px 5px #000000;
+        }
+
+        .text1
+        {
+            margin-left: 8px;
+        }
+
+        img
+        {
+            width: 100px;
+            height: 100px;
+        }
+
+        .datosimg
+        {
+            margin-left: 750px;
+            margin-top: -100px;
+        }
+
+        .estudiosimg
+        {
+            margin-left: 840px;
+            margin-top: -100px;
+        }
+
+        .carreraimg
+        {
+            margin-left: 850px;
+            margin-top: -100px;
+        }
+
+        .aficionesimg
+        {
+            margin-left: 450px;
+            margin-top: -100px;
+        }
+
+        .flecha
+        {
+            display:block;
+            margin:auto;
+            width: 400px;
+            height: auto;
+            margin-bottom: 200px;
+        }
+
+        .experiencia-text
+        {
+            border-radius: 20px;
+            background-color: white;
+            border: 5px solid #000000;
+            padding: 10px;
+            margin: 20px;
+            box-shadow: 5px 5px 5px #000000;
+        }
+
+        .Aficiones-text
+        {
+            text-align: center;
+            border-radius: 20px;
+            background-color: white;
+            border: 5px solid #000000;
+            padding: 10px;
+            margin: 20px;
+            box-shadow: 5px 5px 5px #000000; 
+            margin-bottom: 100px;
+        }
+
+        .main-header
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #ffffff ;
+            padding: 20px;
+            margin: 0;
+            border: none;
+            margin: -8px;
+            border-bottom: 5px solid #000000;
+            font-size: 30px;
+        }
+
+        a
+        {
+            text-decoration: none;
+            color: black;
+        }
+
+        .main-header a:hover
+        {
+            color: #0075FF;
+            transition: color 0.3s linear;
+        }
+
+        .footer
+        {
+            display: flex;
+            background-color: #ffffff ;
+            padding: 20px;
+            margin: 0;
+            border: none;
+            margin: -8px;
+            border-top: 5px solid #000000;
+        }
+
+        .footer-img
+        {
+            margin-right: 20px;
+        }
+
+        .footer-text
+        {
+            margin-top: 25px;
+            font-size: 30px;
         }
 
     </style>
 </head>
 <body>
     <header>
+        <div class="main-header">
+            <a href="#datos">
+                Datos personales
+            </a>
+            <a href="#estudios">
+                Estudios realizados
+            </a>
+            <a href="#experiencia">
+                Experiencia laboral
+            </a>
+            <a href="#Aficiones">
+                Aficiones   
+            </a>
+        </div>
         <div>
             <p class="titel">
                 Página personal
             </p>
+            <img src="imagines/flecha-hacia-abajo.png" class="flecha">
         </div>
     </header>
     <div class="datos">
         <div class="Datos-personales">
             <div>
-                <p class="secondtitel">
+                <p class="secondtitel" id="datos">
                     Datos personales
                 </p>
+                <img src="imagines/informacion-personal.png" class="datosimg">
                 <hr class="secondtitleline">
             </div>
             <div class="secondtitel-text">
-
+                <p class="text1">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, perferendis culpa pariatur, cum sed veritatis sit id illo rerum a ducimus, eius quo quaerat fugiat eum dolore saepe similique illum iusto harum minus tenetur fuga odit dicta. Odio assumenda error vero illo! Voluptate amet maiores dicta, molestias tempora officia recusandae ut natus eius consequatur earum provident quia quibusdam tenetur optio asperiores delectus ea iure harum dolorum, dolores corporis magnam sint repudiandae? Eum amet necessitatibus, eaque id ab similique repudiandae, officiis sint, quas libero eos repellat? Doloribus placeat maxime ad temporibus? Ex, nesciunt quasi reprehenderit tempora beatae inventore reiciendis autem odio.
+                </p>
             </div>
         </div>
         <div class="Estudios">
             <div>
-                <p class="secondtitel">
+                <p class="secondtitel" id="estudios">
                     Estudios realizados
                 </p>
+                <img src="imagines/leyendo.png" class="estudiosimg">
                 <hr class="secondtitleline">
             </div>
             <div class="list-estudios">
-                <ul>
-                    <li>Grado en Informática</li>
-                    <li>Máster en Desarrollo Web</li>
-                    <li>Curso de Programación en Python</li>
-                </ul>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi minus tempora praesentium? Provident sapiente deleniti ipsam pariatur perspiciatis hic temporibus suscipit fugit minima distinctio recusandae fugiat culpa, illo rerum?</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt exercitationem corporis delectus ipsam ducimus rem doloribus aut. Est, quis. Impedit iusto tempora error fugiat doloremque, obcaecati alias assumenda deleniti officia.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus odio consequuntur laudantium dolores, possimus ratione deserunt nihil eaque illum impedit ex distinctio amet autem, ab natus nulla earum labore molestias.</li>
+                </ol>
             </div>
         </div>
 
         <div class="Expriencia">
             <div>
-                <p class="secondtitel">
+                <p class="secondtitel" id="experiencia">
                     Experiencia laboral
                 </p>
+                <img src="imagines/carrera-profesional.png" class="carreraimg">
                 <hr class="secondtitleline">
+            </div>
+            <div class="experiencia-text">
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur temporibus ad saepe sapiente ipsa asperiores dolor nulla odit cum minima, voluptatibus aliquid facilis distinctio consequuntur fugiat, repellendus soluta explicabo.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sequi voluptas distinctio ipsa? Cum voluptate laudantium eveniet quod doloremque animi numquam architecto fugit. Id praesentium, debitis cumque numquam dolor aperiam.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi adipisci ex. Voluptatem quam eos nihil ipsam officia! Tempore nostrum, fugiat dolore eum perferendis assumenda fugit nemo? Ducimus, excepturi error!
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam cupiditate accusamus doloremque sapiente, cum quam, illum suscipit temporibus molestias explicabo id dicta quibusdam. Deserunt nesciunt quasi ullam ad debitis?
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="Aficiones">
             <div>
-                <p class="secondtitel">
+                <p class="secondtitel" id="Aficiones">
                     Aficiones
                 </p>
+                <img src="imagines/tareas-diarias.png" class="aficionesimg">
                 <hr class="secondtitleline">
+            </div>
+            <div class="Aficiones-text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident explicabo nostrum voluptate alias quasi hic harum, ipsum cumque, expedita ullam facere incidunt at! Tenetur itaque facilis mollitia optio hic. Architecto?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsa tempora eaque sint ipsum harum amet iste alias quo eos? Magni possimus a obcaecati necessitatibus nisi iste dolore ipsum neque!
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error officiis tempore soluta illum minus a corporis atque suscipit quisquam sit tempora cupiditate alias doloribus, velit earum odit. Quo, quaerat expedita.
+                </p>
+            </div>
+            <div class="footer">
+                <a href="https://github.com/darkk03">
+                    <img src="imagines/github.png" class="footer-img">
+                </a>
+                <img src="imagines/png-transparent-left-arrow-previous.png" class="footer-img">
+                <p class="footer-text">
+                    Click
+                </p>
             </div>
         </div>
     </div>
+
 </body>
 </html>
